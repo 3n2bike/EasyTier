@@ -42,12 +42,6 @@ jobs:
           - TARGET: x86_64-unknown-linux-musl
             OS: ubuntu-latest
             ARTIFACT_NAME: linux-x86_64
-          - TARGET: mips-unknown-linux-musl
-            OS: ubuntu-latest
-            ARTIFACT_NAME: linux-mips
-          - TARGET: mipsel-unknown-linux-musl
-            OS: ubuntu-latest
-            ARTIFACT_NAME: linux-mipsel
           - TARGET: armv7-unknown-linux-musleabihf # raspberry pi 2-3-4, not tested
             OS: ubuntu-latest
             ARTIFACT_NAME: linux-armv7hf
